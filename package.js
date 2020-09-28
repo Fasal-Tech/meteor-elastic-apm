@@ -26,7 +26,6 @@ Package.onUse(function(api) {
     "ddp-common",
     "underscore",
     "http",
-    "email",
     "random"
   ]);
 
