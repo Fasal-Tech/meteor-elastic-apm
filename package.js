@@ -19,8 +19,8 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('2.4');
 
-  api.use('psrwolkus:meteor-measured@1.0.3');
-  api.imply('psrwolkus:meteor-measured');
+  api.use('kschingiz:meteor-measured@1.0.3');
+  api.imply('kschingiz:meteor-measured');
 
   api.use([
     'ecmascript',
