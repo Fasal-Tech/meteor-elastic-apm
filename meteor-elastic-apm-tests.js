@@ -2,7 +2,7 @@
 // import { Tinytest } from 'meteor/tinytest';
 
 // // Import and rename a variable exported by meteor-elastic-apm.js.
-// import { name as packageName } from 'meteor/kschingiz:meteor-elastic-apm';
+// import { name as packageName } from 'meteor/psrwolkus:meteor-elastic-apm';
 
 // // Write your tests here!
 // // Here is an example.

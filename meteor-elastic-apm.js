@@ -49,7 +49,7 @@ shimmer.wrap(Agent, 'start', function(startAgent) {
                 hackDB();
                 instrumentDB(Agent, Meteor, MongoCursor);
               },
-              metrics: () => startMetrics(Agent)
+             // metrics: () => startMetrics(Agent)
             }).forEach(([name, fn]) => {
               if (!disabled.has(name)) {
                 fn();

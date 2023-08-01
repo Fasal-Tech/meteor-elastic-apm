@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 Package.describe({
-  name: 'kschingiz:meteor-elastic-apm',
+  name: 'psrwolkus:meteor-elastic-apm',
   version: '2.5.1',
   // Brief, one-line summary of the package.
   summary: 'Performance monitoring for Meteor based on Elastic APM',
@@ -38,6 +38,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('kschingiz:meteor-elastic-apm');
+  api.use('psrwolkus:meteor-elastic-apm');
   api.mainModule('meteor-elastic-apm-tests.js');
 });
